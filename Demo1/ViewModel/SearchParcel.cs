@@ -1,18 +1,22 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Input;
+using Demo1.DTOs;
+using Demo1.Model;
 
 namespace Demo1.ViewModel
 {
     public class SearchParcel : BaseViewModel
     {
         private string searchText;
-        private ObservableCollection<string> searchResults;
+        private ObservableCollection<SearchResultDTO> searchResults;
 
         public string SearchText
         {
@@ -22,12 +26,12 @@ namespace Demo1.ViewModel
                 if (searchText != value)
                 {
                     searchText = value;
-                    OnPropertyChanged(nameof(SearchText));
+                    OnPropertyChanged();
                 }
             }
         }
 
-        public ObservableCollection<string> SearchResults
+        public ObservableCollection<SearchResultDTO> SearchResults
         {
             get { return searchResults; }
             set
@@ -35,7 +39,7 @@ namespace Demo1.ViewModel
                 if (searchResults != value)
                 {
                     searchResults = value;
-                    OnPropertyChanged(nameof(SearchResults));
+                    OnPropertyChanged();
                 }
             }
         }
@@ -44,44 +48,38 @@ namespace Demo1.ViewModel
 
         public SearchParcel()
         {
-            SearchCommand = new RelayCommand<object>((p) =>
-            {
-                return !string.IsNullOrEmpty(SearchText);
-            }, (p) =>
-            {
-                Search(SearchText);
-            });
+            SearchCommand = new RelayCommand<object>((p) => { return !string.IsNullOrEmpty(SearchText); },
+                (p) => { Search(SearchText); });
         }
 
-        void Search(string value)
+
+        void Search(string _parcelID)
         {
-            /*if (value == "123")
+            SearchResults = new ObservableCollection<SearchResultDTO>();
+            using (var context = new PBL3_demoEntities())
             {
-                SearchResults = new ObservableCollection<string>
+                try
                 {
-                    "Kết quả 1",
-                    "Kết quả 2",
-                    "Kết quả 3"
-                };
-            }
-            else
-            {
-                MessageBox.Show("Hông có kết quả bé ơi");
-            }*/
-            using (var context = new Model.PBL3_demoEntities())
-            {
-                var customerIDCheck = context.Customers.Where(x => x.customerID == value);
-                if (customerIDCheck.Any())
-                {
-                    SearchResults = new ObservableCollection<string>
+                    var parcel = context.Parcels.Where(x => x.parcelID == int.Parse(_parcelID)).FirstOrDefault();
+                    if (parcel != null)
                     {
-                        customerIDCheck.ToString()
-                    };
+                        var searchResultDTO = new SearchResultDTO
+                        {
+                            ParcelName = parcel.parcelName,
+                            ParcelType = ((bool)parcel.type) ? "Hàng dễ vỡ" : "Hàng bình thường",
+                            ParcelValue = parcel.parcelValue.ToString(),
+                        };
+                    }
+                    else
+                    {
+                        MessageBox.Show("Đơn hàng không tồn tại trong hệ thống! Xin vui lòng thử lại");
+                    }
                 }
-                else
+                catch
                 {
-                    MessageBox.Show("Không có đơn hàng này trong hệ thống");
+                    MessageBox.Show("Có lỗi trong lúc nhập ID, vui lòng thử lại");
                 }
+
             }
         }
     }

@@ -7,6 +7,7 @@ using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Runtime.Remoting.Contexts;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -250,7 +251,7 @@ namespace Demo1.ViewModel
             double TotalFee = posFee;
             if (extraFeeCheck) TotalFee += 17000;
             if (transportationFeeCheck) TotalFee += 17000;
-            if (cODFeeCheck) TotalFee += 12000;
+            if (cODFeeCheck) TotalFee += (12000 + double.Parse(ParcelValue));
             TotalFee += MassFee(double.Parse(ParcelMass)) +
             VolumeFee(double.Parse(ParcelLength), double.Parse(ParcelWidth), double.Parse(ParcelHeight));
 
@@ -618,15 +619,40 @@ namespace Demo1.ViewModel
            
             bool checkValid()
             {
+
+                
                 if (string.IsNullOrEmpty(SCustomerName) || string.IsNullOrEmpty(SCustomerID) || string.IsNullOrEmpty(SCustomerAddress) ||
                          string.IsNullOrEmpty(SCustomerPhoneNumber) || string.IsNullOrEmpty(SCustomerDistrict) || string.IsNullOrEmpty(SCustomerCity) ||
                          string.IsNullOrEmpty(RCustomerName) || string.IsNullOrEmpty(RCustomerID) || string.IsNullOrEmpty(RCustomerAddress) ||string.IsNullOrEmpty(ParcelLength) ||
                          string.IsNullOrEmpty(RCustomerPhoneNumber) || string.IsNullOrEmpty(RCustomerDistrict) || string.IsNullOrEmpty(RCustomerCity) || string.IsNullOrEmpty(ParcelHeight)||
-                         string.IsNullOrEmpty(ParcelName) || string.IsNullOrEmpty(ParcelValue) || string.IsNullOrEmpty(ParcelMass) || string.IsNullOrEmpty(ParcelWidth)
+                         string.IsNullOrEmpty(ParcelName)|| string.IsNullOrEmpty(ParcelMass) || string.IsNullOrEmpty(ParcelWidth)
                          || (isSlow == false && isFast == false))
 
                     isValid = 0;
                 else isValid = 1;
+                
+                
+
+              
+                double number, number1, number2, number3, number4;
+                int number5, number6;
+                ////con valid sdt chua lam
+                bool isNumeric = double.TryParse(ParcelValue, out number);
+                bool isNumeric1 = double.TryParse(ParcelMass, out number1);
+                bool isNumeric2 = double.TryParse(ParcelHeight, out number2);
+                bool isNumeric3 = double.TryParse(ParcelWidth, out number3);
+                bool isNumeric4 = double.TryParse(ParcelLength, out number4);
+                bool isNumeric5 = int.TryParse(RCustomerID, out number5);
+                bool isNumeric6 = int.TryParse(SCustomerID, out number6);
+                if (isNumeric&&isNumeric1&&isNumeric2&&isNumeric3&&isNumeric4&&isNumeric5&&isNumeric6)
+                {
+                    isValid = 1;
+                }
+                else
+                {
+                    isValid = 0;
+                }
+
                 if (isValid == 0) return false;
                 else return true;
             }

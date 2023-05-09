@@ -140,8 +140,6 @@ C:\Users\ASUS\Documents\Zalo Received Files\Demo1 (1)\Demo1\obj\Debug\Demo1.cspr
 C:\Users\ASUS\Documents\Zalo Received Files\Demo1 (1)\Demo1\obj\Debug\Styles\ButtonStyles.baml
 C:\Users\ASUS\Documents\Zalo Received Files\Demo1 (1)\Demo1\obj\Debug\Styles\ScrollViewer.baml
 C:\Users\ASUS\Documents\Zalo Received Files\Demo1 (1)\Demo1\obj\Debug\Styles\UIColors.baml
-C:\Users\ASUS\Documents\Zalo Received Files\Demo1 (1)\Demo1\obj\Debug\LoginWindow.g.cs
-C:\Users\ASUS\Documents\Zalo Received Files\Demo1 (1)\Demo1\obj\Debug\MainWindow.g.cs
 C:\Users\ASUS\Documents\Zalo Received Files\Demo1 (1)\Demo1\obj\Debug\App.g.cs
 C:\Users\ASUS\Documents\Zalo Received Files\Demo1 (1)\Demo1\obj\Debug\Demo1_Content.g.cs
 C:\Users\ASUS\Documents\Zalo Received Files\Demo1 (1)\Demo1\obj\Debug\GeneratedInternalTypeHelper.g.cs
@@ -180,22 +178,88 @@ C:\Users\ASUS\Documents\Zalo Received Files\Demo1 (1)\Demo1\bin\Debug\System.Num
 C:\Users\ASUS\Documents\Zalo Received Files\Demo1 (1)\Demo1\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\ASUS\Documents\Zalo Received Files\Demo1 (1)\Demo1\bin\Debug\System.Windows.Interactivity.xml
 C:\Users\ASUS\Documents\Zalo Received Files\Demo1 (1)\Demo1\obj\Debug\App.baml
-C:\Users\ASUS\Documents\Zalo Received Files\Demo1 (1)\Demo1\obj\Debug\LoginWindow.baml
-C:\Users\ASUS\Documents\Zalo Received Files\Demo1 (1)\Demo1\obj\Debug\MainWindow.baml
 C:\Users\ASUS\Documents\Zalo Received Files\Demo1 (1)\Demo1\obj\Debug\ResourceXAML\MainResource.baml
 C:\Users\ASUS\Documents\Zalo Received Files\Demo1 (1)\Demo1\obj\Debug\Demo1.g.resources
 C:\Users\ASUS\Documents\Zalo Received Files\Demo1 (1)\Demo1\obj\Debug\Demo1.Properties.Resources.resources
 C:\Users\ASUS\Documents\Zalo Received Files\Demo1 (1)\Demo1\obj\Debug\Demo1.csproj.GenerateResource.cache
 C:\Users\ASUS\Documents\Zalo Received Files\Demo1 (1)\Demo1\obj\Debug\Demo1.csproj.CoreCompileInputs.cache
 C:\Users\ASUS\Documents\Zalo Received Files\Demo1 (1)\Demo1\obj\Debug\Demo1.csproj.CopyComplete
-C:\Users\ASUS\Documents\Zalo Received Files\Demo1 (1)\Demo1\obj\Debug\Window1.g.cs
-C:\Users\ASUS\Documents\Zalo Received Files\Demo1 (1)\Demo1\obj\Debug\Window1.baml
-C:\Users\ASUS\Documents\Zalo Received Files\Demo1 (1)\Demo1\obj\Debug\SearchParcel.g.cs
-C:\Users\ASUS\Documents\Zalo Received Files\Demo1 (1)\Demo1\obj\Debug\SearchParcel.baml
-C:\Users\ASUS\Documents\Zalo Received Files\Demo1 (1)\Demo1\obj\Debug\AddFuncView.g.cs
-C:\Users\ASUS\Documents\Zalo Received Files\Demo1 (1)\Demo1\obj\Debug\AddFuncView.baml
 C:\Users\ASUS\Documents\Zalo Received Files\Demo1 (1)\Demo1\bin\Debug\Prism.dll
 C:\Users\ASUS\Documents\Zalo Received Files\Demo1 (1)\Demo1\bin\Debug\Prism.pdb
 C:\Users\ASUS\Documents\Zalo Received Files\Demo1 (1)\Demo1\bin\Debug\Prism.xml
-C:\Users\ASUS\Documents\Zalo Received Files\Demo1 (1)\Demo1\obj\Debug\Invoice.g.cs
-C:\Users\ASUS\Documents\Zalo Received Files\Demo1 (1)\Demo1\obj\Debug\Invoice.baml
+C:\Users\ASUS\Documents\Zalo Received Files\Demo1 (1)\Demo1\obj\Debug\View\AddFuncView.g.cs
+C:\Users\ASUS\Documents\Zalo Received Files\Demo1 (1)\Demo1\obj\Debug\View\Invoice.g.cs
+C:\Users\ASUS\Documents\Zalo Received Files\Demo1 (1)\Demo1\obj\Debug\View\LoginWindow.g.cs
+C:\Users\ASUS\Documents\Zalo Received Files\Demo1 (1)\Demo1\obj\Debug\View\MainWindow.g.cs
+C:\Users\ASUS\Documents\Zalo Received Files\Demo1 (1)\Demo1\obj\Debug\View\SearchParcel.g.cs
+C:\Users\ASUS\Documents\Zalo Received Files\Demo1 (1)\Demo1\obj\Debug\View\Window1.g.cs
+C:\Users\ASUS\Documents\Zalo Received Files\Demo1 (1)\Demo1\obj\Debug\View\AddFuncView.baml
+C:\Users\ASUS\Documents\Zalo Received Files\Demo1 (1)\Demo1\obj\Debug\View\Invoice.baml
+C:\Users\ASUS\Documents\Zalo Received Files\Demo1 (1)\Demo1\obj\Debug\View\LoginWindow.baml
+C:\Users\ASUS\Documents\Zalo Received Files\Demo1 (1)\Demo1\obj\Debug\View\MainWindow.baml
+C:\Users\ASUS\Documents\Zalo Received Files\Demo1 (1)\Demo1\obj\Debug\View\SearchParcel.baml
+C:\Users\ASUS\Documents\Zalo Received Files\Demo1 (1)\Demo1\obj\Debug\View\Window1.baml
+C:\PBL3Demo\Demo1\bin\Debug\Demo1.exe.config
+C:\PBL3Demo\Demo1\bin\Debug\Demo1.exe
+C:\PBL3Demo\Demo1\bin\Debug\Demo1.pdb
+C:\PBL3Demo\Demo1\bin\Debug\BCrypt.Net-Next.dll
+C:\PBL3Demo\Demo1\bin\Debug\EntityFramework.dll
+C:\PBL3Demo\Demo1\bin\Debug\EntityFramework.SqlServer.dll
+C:\PBL3Demo\Demo1\bin\Debug\FontAwesome.Sharp.dll
+C:\PBL3Demo\Demo1\bin\Debug\MaterialDesignColors.dll
+C:\PBL3Demo\Demo1\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\PBL3Demo\Demo1\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\PBL3Demo\Demo1\bin\Debug\Microsoft.Xaml.Behaviors.dll
+C:\PBL3Demo\Demo1\bin\Debug\Prism.dll
+C:\PBL3Demo\Demo1\bin\Debug\System.Buffers.dll
+C:\PBL3Demo\Demo1\bin\Debug\System.Memory.dll
+C:\PBL3Demo\Demo1\bin\Debug\System.Numerics.Vectors.dll
+C:\PBL3Demo\Demo1\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\PBL3Demo\Demo1\bin\Debug\System.Windows.Interactivity.dll
+C:\PBL3Demo\Demo1\bin\Debug\BCrypt.Net-Next.xml
+C:\PBL3Demo\Demo1\bin\Debug\EntityFramework.xml
+C:\PBL3Demo\Demo1\bin\Debug\EntityFramework.SqlServer.xml
+C:\PBL3Demo\Demo1\bin\Debug\MaterialDesignColors.pdb
+C:\PBL3Demo\Demo1\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\PBL3Demo\Demo1\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\PBL3Demo\Demo1\bin\Debug\Microsoft.Expression.Interactions.xml
+C:\PBL3Demo\Demo1\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+C:\PBL3Demo\Demo1\bin\Debug\Microsoft.Xaml.Behaviors.xml
+C:\PBL3Demo\Demo1\bin\Debug\Prism.pdb
+C:\PBL3Demo\Demo1\bin\Debug\Prism.xml
+C:\PBL3Demo\Demo1\bin\Debug\System.Buffers.xml
+C:\PBL3Demo\Demo1\bin\Debug\System.Memory.xml
+C:\PBL3Demo\Demo1\bin\Debug\System.Numerics.Vectors.xml
+C:\PBL3Demo\Demo1\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\PBL3Demo\Demo1\bin\Debug\System.Windows.Interactivity.xml
+C:\PBL3Demo\Demo1\obj\Debug\Demo1.csproj.AssemblyReference.cache
+C:\PBL3Demo\Demo1\obj\Debug\Demo1.csproj.SuggestedBindingRedirects.cache
+C:\PBL3Demo\Demo1\obj\Debug\Styles\ButtonStyles.baml
+C:\PBL3Demo\Demo1\obj\Debug\Styles\ScrollViewer.baml
+C:\PBL3Demo\Demo1\obj\Debug\Styles\UIColors.baml
+C:\PBL3Demo\Demo1\obj\Debug\View\AddFuncView.g.cs
+C:\PBL3Demo\Demo1\obj\Debug\View\Invoice.g.cs
+C:\PBL3Demo\Demo1\obj\Debug\View\LoginWindow.g.cs
+C:\PBL3Demo\Demo1\obj\Debug\View\MainWindow.g.cs
+C:\PBL3Demo\Demo1\obj\Debug\View\SearchParcel.g.cs
+C:\PBL3Demo\Demo1\obj\Debug\View\Window1.g.cs
+C:\PBL3Demo\Demo1\obj\Debug\App.g.cs
+C:\PBL3Demo\Demo1\obj\Debug\Demo1_Content.g.cs
+C:\PBL3Demo\Demo1\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\PBL3Demo\Demo1\obj\Debug\Demo1_MarkupCompile.cache
+C:\PBL3Demo\Demo1\obj\Debug\Demo1_MarkupCompile.lref
+C:\PBL3Demo\Demo1\obj\Debug\App.baml
+C:\PBL3Demo\Demo1\obj\Debug\View\AddFuncView.baml
+C:\PBL3Demo\Demo1\obj\Debug\View\Invoice.baml
+C:\PBL3Demo\Demo1\obj\Debug\View\LoginWindow.baml
+C:\PBL3Demo\Demo1\obj\Debug\View\MainWindow.baml
+C:\PBL3Demo\Demo1\obj\Debug\ResourceXAML\MainResource.baml
+C:\PBL3Demo\Demo1\obj\Debug\View\SearchParcel.baml
+C:\PBL3Demo\Demo1\obj\Debug\View\Window1.baml
+C:\PBL3Demo\Demo1\obj\Debug\Demo1.g.resources
+C:\PBL3Demo\Demo1\obj\Debug\Demo1.Properties.Resources.resources
+C:\PBL3Demo\Demo1\obj\Debug\Demo1.csproj.GenerateResource.cache
+C:\PBL3Demo\Demo1\obj\Debug\Demo1.csproj.CoreCompileInputs.cache
+C:\PBL3Demo\Demo1\obj\Debug\Demo1.csproj.CopyComplete
+C:\PBL3Demo\Demo1\obj\Debug\Demo1.exe
+C:\PBL3Demo\Demo1\obj\Debug\Demo1.pdb

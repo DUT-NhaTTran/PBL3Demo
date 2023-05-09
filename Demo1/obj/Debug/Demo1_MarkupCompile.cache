@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\PBL3Demo\Demo1\App.xaml
-10-1680698615
+101239897564
 2-1556844510
-312051095162
+33202941507
 32-428075333
-AddFuncView.xaml;Invoice.xaml;LoginWindow.xaml;MainWindow.xaml;ResourceXAML\MainResource.xaml;SearchParcel.xaml;Styles\ButtonStyles.xaml;Styles\ScrollViewer.xaml;Styles\UIColors.xaml;Window1.xaml;
+View\AddFuncView.xaml;View\Invoice.xaml;View\LoginWindow.xaml;View\MainWindow.xaml;ResourceXAML\MainResource.xaml;View\SearchParcel.xaml;Styles\ButtonStyles.xaml;Styles\ScrollViewer.xaml;Styles\UIColors.xaml;View\Window1.xaml;
 
 True
 
